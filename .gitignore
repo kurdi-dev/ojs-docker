@@ -1,2 +1,2 @@
-volumes/public/
-volumes/private/
+volumes/public/*/
+volumes/private/*/
