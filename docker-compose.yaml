@@ -11,6 +11,7 @@ services:
     volumes:
       - ./volumes/public:/var/www/html/public
       - ./volumes/private:/var/www/files
+      - ./volumes/plugins:/var/www/html/plugins
       - ./configs/config.inc.php:/var/www/html/config.inc.php
     restart: always
   db:
